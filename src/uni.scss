@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .paint-contain {
+    contain: paint;
+    overflow: hidden;
+  }
+  .border-left {
+    border-left-width: 1rpx;
+    @apply border-color-placeholder border-solid border-opacity-50;
+  }
+  .hover {
+    opacity: 0.5;
+  }
+}
